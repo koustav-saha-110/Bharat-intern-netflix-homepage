@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.f-header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    width: 35%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.netflix-logo {
+    margin-top: 4%;
+    height: 5vh;
+}
+
+.nav-buttons {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#translate {
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 5px;
+    margin-right: 7px;
+    transition: opacity 0.3s, box-shadow 0.3s, font-size 0.3s;
+}
+
+.sign-up-button {
+    background-color: #E90000;
+    font-size: 13px;
+    color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 5px;
+    transition: opacity 0.3s, box-shadow 0.3s, font-size 0.3s;
+}
+
+.sign-up-button:hover, #translate:hover, .get-started-button:hover, .email-input:hover {
+    box-shadow: 3px 3px 8px rgb(159, 159, 159);
+    font-size: 16px;
+}
+
+.anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1 {
+    color: white;
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.text-2 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 6px;
+}
+
+.text-3 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.under-hero {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input {
+    background-color: transparent;
+    color: rgb(180, 180, 180);
+    padding-left: 3vh;
+    padding-right: 7vh;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 9px;
+    font-size: 15px;
+    transition: opacity 0.3s, box-shadow 0.3s, font-size 0.3s;
+}
+
+.get-started-button {
+    background-color: #E90000;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-left: 6px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: opacity 0.3s, box-shadow 0.3s, font-size 0.3s;
+}
+
+.line-bar {
+    width: 100%;
+    height: 1vh;
+    background-color: rgb(69, 69, 69);
+}
+
+.main-content {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+}
+
+.content-1, .content-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content-1 {
+    justify-content:flex-end;    
+}
+
+.content-2 {
+    justify-content: left;
+}
+
+.under-content-1 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-content-2 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(tv.png);
+    background-position: center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+
+.under-content-text-1 {
+    text-align: left;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.under-content-text-2 {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.content-3, .content-4 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content-3 {
+    justify-content: flex-end;    
+}
+
+.content-4 {
+    justify-content: left;
+}
+
+.under-content-3 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(mobile-0819.jpg);
+    background-position: center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+
+.under-content-4 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-content-text-3 {
+    text-align: left;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.under-content-text-4 {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.under-content-5 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(device-pile-in.png);
+    background-position: center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+
+.video-2 {
+    width: 48%;
+    position: relative;
+    bottom: 76px;
+}
+
+.under-content-6 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png);
+    background-position: center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+
+.video-1 {
+    width: 57%;
+    position: relative;
+    bottom: 8px;
+}
+
+@media (width <= 482) {
+    .under-hero {
+        flex-direction: column;
+    }
+}
+
+@media (width <= 462px) {
+    .video-1 {
+        bottom: 0px;
+    }
+}
+
+@media (width <= 1456px) {
+    .video-2 {
+        bottom: 50px;
+    }
+}
+
+@media (width <= 1174px) {
+    .video-2 {
+        bottom: 30px;
+    }
+}
+
+.faq {
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-faq {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-div {
+    width: 100%;
+    height: 10%;
+}
+
+.third-div {
+    width: 100%;
+    height: 15%;
+}
+
+.third-div,.first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-div {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxes {
+    width: 75%;
+    background-color: rgb(49, 49, 49);
+    height: 13%;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+.boxes:hover {
+    opacity: 0.7;
+}
+
+.oye {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-content {
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-footer {
+    width: 90%;
+    height: 90%;
+}
+
+.first {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.second {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-1,.s-2,.s-3,.s-4 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    color: rgb(183, 183, 183);
+}
+
+#translate1 {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 64%;
+    color: white;
+    height: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    transition: opacity 0.3s, box-shadow 0.3s, font-size 0.3s;
+}
